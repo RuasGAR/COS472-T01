@@ -4,7 +4,7 @@
 #define N_MAX 18000
 
 double generate_random_num() {
-    double n = (double)rand() / RAND_MAX * 100;
+    double n = (double)rand() / RAND_MAX;
     return n;
 }
 
